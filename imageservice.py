@@ -14,7 +14,7 @@ def clear_service_file():
 
 def monitor_service_calls(image_paths):
     while True:
-        time.sleep(.01)
+        time.sleep(3)
         
         f = open('image-service.txt', "r")
         service_call = f.read()

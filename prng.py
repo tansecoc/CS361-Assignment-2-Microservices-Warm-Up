@@ -11,7 +11,7 @@ def random_generator():
     high = 10
 
     while True:
-        time.sleep(.01)
+        time.sleep(3)
         
         f = open('prng-service.txt', "r")
         if f.read() == 'run':

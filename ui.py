@@ -6,7 +6,7 @@ def call_prng():
     f = open('prng-service.txt', "w")
     f.write('run')
     f.close()
-    time.sleep(.02)
+    time.sleep(5)
     
     f = open('prng-service.txt', "r")
     random_number = f.read()
@@ -22,7 +22,7 @@ def call_image_service(random_number):
     f = open('image-service.txt', "w")
     f.write(str(random_number))
     f.close()
-    time.sleep(.02)
+    time.sleep(5)
     
     f = open('image-service.txt', "r")
     path = f.read()
