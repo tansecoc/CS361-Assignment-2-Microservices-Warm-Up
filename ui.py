@@ -67,4 +67,5 @@ def user_interface():
     window.mainloop()
 
 if __name__ == '__main__':
+    print("UI Running...")
     user_interface()

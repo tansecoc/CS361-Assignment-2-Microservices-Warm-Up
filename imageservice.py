@@ -30,6 +30,7 @@ def monitor_service_calls(image_paths):
             f.close()
 
 if __name__ == '__main__':
+    print("Image Service Running...")
     clear_service_file()
     image_paths = create_image_paths()
     monitor_service_calls(image_paths)
